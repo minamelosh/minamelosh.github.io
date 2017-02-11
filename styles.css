@@ -1,0 +1,50 @@
+body {
+  background:white;
+  text-align: center;
+  max-width: 500px;
+}
+#jello-list {
+  background-color: pink;
+  padding: 5px;
+  border-radius: 20px;
+  margin: 10px;
+}
+#headers {
+  font-family: helvetica;
+}
+#table {
+  border: 3px solid yellow;
+  border-radius: 20px;
+  padding: 10px;
+}
+#comp-page {
+    font-family: comic sans ms;
+    font-size: 16pt;
+    color: purple;
+}
+section.add-info {
+  border: 3px solid plum;
+  padding: 10px;
+}
+article{
+    background-image: url("dark-pink-heart.png");
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1em;
+}
+/* hover over a line*/
+a:hover {
+    background-color: pink;
+}
+/* unvisited link */
+a:link {
+    color: blue;
+}
+/* visited link */
+a:visited {
+    color: purple;
+}
